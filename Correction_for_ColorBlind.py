@@ -122,7 +122,8 @@ def visualize_results(original_img, segmented_img, colorblind_img, colorblind_ty
 
 if __name__ == "__main__":
 
-    image_path = "Example_Images/Blue,_red_and_green_parrot_(Unsplash).jpg"
+    # Insert path to an image
+    image_path = ""
 
     # Segment image by colors
     original_img, segmented, centers_hsv = segment_image_by_color(image_path, n_clusters=8)
